@@ -1,0 +1,173 @@
+:root {
+
+	--color-primary: #cd0102;
+	--color-secondary: black;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html,body {
+	 font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+.navbar {
+	width: 100%;
+	height: auto;
+	background-color: var(--color-primary);
+}
+.container {
+	 width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+  }
+
+   .navbar li {
+    margin: 0 15px;
+    font-weight: bold;
+    list-style: none;
+  }
+
+    .navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+  }
+
+  .navbar-left{
+    flex: 1;
+    
+    font-size: 20px;
+ 
+    background-color: var(--color-primary);
+  }
+
+.navbar-brand {
+	background-color: var(--color-primary);
+	color: #fff;
+	font-size: 20px;
+	font-family: bold;
+ }
+.brand {
+	margin-left: 20px;
+	font-size: 40px;
+
+}
+hr{
+	color: #fff;
+}
+a:hover{
+	background-color: var(--color-secondary);
+	font-size: 12px;
+	padding: 2px;
+}
+
+.brand img {
+	width: 350px;
+	height: auto;
+	margin-top: 10px;
+}
+
+/*showcase*/
+.news {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+
+}
+.heading p {
+	font-size: 23px;
+
+}
+
+
+.news_list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+.news_list img {
+	 width: 350px;
+	 height: 350px;
+	 border: 2px solid #cccc;
+}
+.news_list p {
+	font-size: 24px;
+	margin: auto;
+}
+.news_list h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/**/
+
+.news {
+	margin-top: 40px;
+
+}
+
+/*footer*/
+.main .logo {
+	
+	
+}
+.logo	 {
+	background-color: var(--color-primary);
+}
+.logo img {
+  margin-top: 10px;
+	width: 300px;
+	height: auto;
+}
+
+.sub_footer{
+	
+	height: auto;
+	background-color: rgb(63, 63, 66);
+}
+.sub_footer p {
+	font-size: 24px;
+	color: #ffff;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+
+/*mini*/
+.mini_footer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+  background-color: rgb(63, 63, 66);
+  padding: 10px;
+
+}
+.mini_footer p {
+	font-size: 23px;
+	font-weight: bold;
+	font-display: block;
+	margin-left: 20px;
+	color: #fff;
+	padding: 10px;
+}
+
+.copyright {
+	background-color: rgb(63, 63, 66);
+}
+.copyright p {
+	color: #fff;
+	font-size: 16px;
+	font-family: tahoma;
+
+}
